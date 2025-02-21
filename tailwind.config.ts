@@ -25,6 +25,10 @@ export default {
         dmSerif: ["var(--font-dm-serif)", "serif"],
         karla: ["var(--font-karla)", "sans-serif"],
       },
+      backgroundImage:{
+        menuBg: "url('../../public/sources/images/bg-pattern-mobile-nav.svg')",
+        menu: "url('/public/sources/images/bg-pattern-mobile-nav.svg')"
+      }
     },
   },
   plugins: [],

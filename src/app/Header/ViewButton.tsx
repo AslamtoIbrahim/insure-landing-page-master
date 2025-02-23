@@ -1,11 +1,16 @@
 import React from "react";
 
-const ViewButton = () => {
+type prop ={
+  styles?: string;
+  text?: string;
+}
+const ViewButton = ({text = 'View Plans', styles} : prop) => {
   return (
-    <button className="w-full py-2 text-neutral-veryLightGray uppercase font-karla text-xl
+    <button className={` text-neutral-veryLightGray uppercase font-karla 
     border-neutral-veryLightGray border-2
-     hover:bg-neutral-veryLightGray hover:text-neutral-veryDarkViolet ">
-      View Plans
+     hover:bg-neutral-veryLightGray hover:text-neutral-veryDarkViolet 
+     ${styles ? styles : 'w-full py-2 text-xl'}`}>
+      {text}
     </button>
   );
 };

@@ -27,7 +27,10 @@ export default {
       },
       backgroundImage:{
         menuBg: "url('../../public/sources/images/bg-pattern-mobile-nav.svg')",
-        menu: "url('/public/sources/images/bg-pattern-mobile-nav.svg')"
+        intrLeft: "url('../../public/sources/images/bg-pattern-intro-left-mobile.svg')",
+        intrRight: "url('../../public/sources/images/bg-pattern-intro-right-mobile.svg')",
+        intrTop: "url('../../public/sources/images/bg-pattern-footer-mobile.svg')",
+        menu: "url('/public/sources/images/bg-pattern-footer-mobile.svg')"
       }
     },
   },

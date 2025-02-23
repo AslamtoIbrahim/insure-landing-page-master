@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import logo from "../../../public/sources/images/logo.svg";
 import hamb from "../../../public/sources/images/icon-hamburger.svg";
 import close from "../../../public/sources/images/icon-close.svg";
+import Logo from "../Logo";
 
 type prop = {
   click?: () => void;
@@ -17,7 +17,7 @@ const Navigator = ({ click }: prop) => {
   };
   return (
     <div className="bg-neutral-veryLightGray flex items-center justify-between p-4">
-      <Image src={logo} alt="Logo" width={112} height={18} />
+      <Logo />
       <button onClick={handleClick} className="outline-none border-none">
         {open ? (
           <Image src={close} alt="close icon" width={32} height={32} />

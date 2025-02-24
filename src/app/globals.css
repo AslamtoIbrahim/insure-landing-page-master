@@ -20,24 +20,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.link:hover{
+.link:hover {
   text-decoration: underline;
 }
 
-.icon:hover{
+.icon:hover {
   color: hsl(270, 9%, 17%);
 }
 
 .intro {
-  background-image:url('../../public/sources/images/bg-pattern-intro-left-mobile.svg'), url('../../public/sources/images/bg-pattern-intro-right-mobile.svg');
+  background-image: url("../../public/sources/images/bg-pattern-intro-left-mobile.svg"),
+    url("../../public/sources/images/bg-pattern-intro-right-mobile.svg");
   background-repeat: no-repeat;
-  background-position: left top, right  bottom -299%;
+  background-position: left top, right bottom -299%;
 
   @media (min-width: 375px) {
     background-position: left top, right bottom -462%;
   }
   @media (min-width: 425px) {
     background-position: left top, right bottom -487%;
+  }
+}
+
+.mdIntro {
+  @media (min-width: 768px) {
+    background-image:url("../../public/sources/images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right -99px top -76px;
+    background-size: cover;
+  }
+
+  @media (min-width: 1024px) {
+    background-position: left top, right bottom -390%;
+  }
+  @media (min-width: 1200px) {
+    background-position: left top, right bottom -420%;
   }
 }

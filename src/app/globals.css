@@ -28,6 +28,10 @@ body {
   color: hsl(270, 9%, 17%);
 }
 
+.icondesing{
+  @apply text-neutral-darkGrayishViolet text-2xl lg:text-3xl cursor-pointer
+}
+
 .intro {
   background-image: url("../../public/sources/images/bg-pattern-intro-left-mobile.svg"),
     url("../../public/sources/images/bg-pattern-intro-right-mobile.svg");
@@ -51,9 +55,9 @@ body {
   }
 
   @media (min-width: 1024px) {
-    background-position: left top, right bottom -390%;
+    background-position: right -108px top -244px;
   }
   @media (min-width: 1200px) {
-    background-position: left top, right bottom -420%;
+    background-position: right 1px top -134px;
   }
 }

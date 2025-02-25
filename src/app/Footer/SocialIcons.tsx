@@ -4,10 +4,10 @@ import { IoLogoFacebook, IoLogoInstagram, IoLogoPinterest, IoLogoTwitter } from 
 const SocialIcons = () => {
   return (
     <div className='flex items-center gap-4 '>
-      <IoLogoFacebook className='text-neutral-darkGrayishViolet text-2xl icon' />
-      <IoLogoTwitter className='text-neutral-darkGrayishViolet text-2xl icon' />
-      <IoLogoPinterest className='text-neutral-darkGrayishViolet text-2xl icon' />
-      <IoLogoInstagram className='text-neutral-darkGrayishViolet text-2xl icon' />
+      <IoLogoFacebook className='icondesing icon' />
+      <IoLogoTwitter className='icondesing icon' />
+      <IoLogoPinterest className='icondesing icon' />
+      <IoLogoInstagram className='icondesing icon' />
     </div>
   )
 }

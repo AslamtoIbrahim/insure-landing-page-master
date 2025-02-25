@@ -4,13 +4,13 @@ import ViewButton from "./ViewButton";
 
 const NavLinks = () => {
   return (
-    <div className="hidden  md:flex items-center gap-4 font-karla ">
-      <ul className=" w-full flex items-center md:gap-6 ">
+    <div className="hidden  md:flex items-center gap-4 font-karla lg:gap-8 xl:gap-12 ">
+      <ul className=" w-full flex items-center md:gap-6 lg:gap-8 xl:gap-12 ">
         {menuItems.map((item, index) => (
           <li key={index} className="">
             <a
               className="whitespace-nowrap uppercase text-neutral-darkGrayishViolet font-semibold
-            hover:text-neutral-veryDarkViolet transition duration-300 "
+            hover:text-neutral-veryDarkViolet transition duration-300 lg:text-xl "
               target="_blank"
               rel="noopener noreferrer"
               href="#"

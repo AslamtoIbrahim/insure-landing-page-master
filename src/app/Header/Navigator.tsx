@@ -18,7 +18,7 @@ const Navigator = ({ click }: prop) => {
   };
   return (
     <div className="bg-neutral-veryLightGray flex items-center justify-between p-4
-    md:px-8">
+    md:px-8 lg:px-16 xl:px-32 xl:py-8 ">
       <Logo />
       <button
         onClick={handleClick}
